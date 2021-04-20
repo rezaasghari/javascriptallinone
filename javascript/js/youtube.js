@@ -11,9 +11,13 @@
 // console.log(age);
 // console.log(age);
 // console.log(age);
-var age = 50;
-var newAge = age;
-var message = "newAge = " + newAge; //"newAge = 50"
-console.log(message);
+// var age = 50;
+// var newAge = age;
+// var message = "newAge = " + newAge; //"newAge = 50"
+// console.log(message);
 //declaration
 //initialization
+(function () {
+  //IIFE - imidately invoked function expression
+  var age = 5;
+})();
