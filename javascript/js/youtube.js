@@ -21,14 +21,34 @@
 //   //IIFE - imidately invoked function expression
 //   var age = 5;
 // })();
-{
-  //block
-  let y = 10;
-  const x = 20;
-  {
-    let y = 6;
-    console.log(y);
-  }
-  console.log(y);
-  var z = 100;
-}
+// {
+//   //block
+//   let y = 10;
+//   const x = 20;
+//   {
+//     let y = 6;
+//     console.log(y);
+//   }
+//   console.log(y);
+//   var z = 100;
+// }
+
+// let x = 5; //number
+// let b = "10";
+// x = x + b;
+// console.log(x);
+// let myName = "caleb";
+// let tacos = null;
+// let person = {
+//   name: "Reza",
+//   age: 93,
+//   favFood: "Pizza... Obviously -_-",
+//   fun: function () {
+//     console.log("Yay!");
+//   },
+// };
+// person.fun();
+// let now = new Date();
+let grades = [30, 30, 12, 23];
+//primitives
+//objects
