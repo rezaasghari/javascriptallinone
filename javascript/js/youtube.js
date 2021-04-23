@@ -49,6 +49,19 @@
 // };
 // person.fun();
 // let now = new Date();
-let grades = [30, 30, 12, 23];
+// let grades = [30, 30, 12, 23];
+// let x = 10;
+// x = 5;
+{
+  let myName = "Caleb";
+  //   myName.toUpperCase();
+  let yourName = new String("clarie");
+  //   let age = new Number();
+  //   age.valueOf();
+  //   console.log(typeof myName);
+  //   console.log(typeof yourName);
+  //   myName = myName.toUpperCase();
+  //   console.log(myName);
+}
 //primitives
 //objects
