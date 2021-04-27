@@ -53,9 +53,9 @@
 // let x = 10;
 // x = 5;
 {
-  let myName = "Caleb";
+  // let myName = "Caleb";
   //   myName.toUpperCase();
-  let yourName = new String("clarie");
+  // let yourName = new String("clarie");
   //   let age = new Number();
   //   age.valueOf();
   //   console.log(typeof myName);
@@ -65,3 +65,7 @@
 }
 //primitives
 //objects
+{
+  let babies = 9007199254740991;
+  console.log(1 / 0);
+}
