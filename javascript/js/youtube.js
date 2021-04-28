@@ -52,20 +52,28 @@
 // let grades = [30, 30, 12, 23];
 // let x = 10;
 // x = 5;
-{
-  // let myName = "Caleb";
-  //   myName.toUpperCase();
-  // let yourName = new String("clarie");
-  //   let age = new Number();
-  //   age.valueOf();
-  //   console.log(typeof myName);
-  //   console.log(typeof yourName);
-  //   myName = myName.toUpperCase();
-  //   console.log(myName);
-}
+// {
+// let myName = "Caleb";
+//   myName.toUpperCase();
+// let yourName = new String("clarie");
+//   let age = new Number();
+//   age.valueOf();
+//   console.log(typeof myName);
+//   console.log(typeof yourName);
+//   myName = myName.toUpperCase();
+//   console.log(myName);
+// }
 //primitives
 //objects
+// {
+//   let babies = 9007199254740991;
+//   console.log(1 / 0);
+// }
 {
-  let babies = 9007199254740991;
-  console.log(1 / 0);
+  // var slicesOfPizza = 10;
+  // console.log(slicesOfPizza % 4.25);
+  var precedence1 = 5 + 3 * 12 - 20 / 10;
+  var precedence2 = 5 + 3 * 12 - 20 / 10;
+  var precedence3 = ((5 + 3) * (12 - 20)) / 10;
+  console.log(precedence1, precedence2, precedence3);
 }
