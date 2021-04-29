@@ -69,11 +69,22 @@
 //   let babies = 9007199254740991;
 //   console.log(1 / 0);
 // }
+// {
+// var slicesOfPizza = 10;
+// console.log(slicesOfPizza % 4.25);
+// var precedence1 = 5 + 3 * 12 - 20 / 10;
+// var precedence2 = 5 + 3 * 12 - 20 / 10;
+// var precedence3 = ((5 + 3) * (12 - 20)) / 10;
+// console.log(precedence1, precedence2, precedence3);
+// }
+// {
+//   let slicesOfPizza = 10;
+//   let newPizza = ++slicesOfPizza;
+//   console.log("slicesOfPizza:", slicesOfPizza);
+//   console.log("newPizza:", newPizza);
+// }
 {
-  // var slicesOfPizza = 10;
-  // console.log(slicesOfPizza % 4.25);
-  var precedence1 = 5 + 3 * 12 - 20 / 10;
-  var precedence2 = 5 + 3 * 12 - 20 / 10;
-  var precedence3 = ((5 + 3) * (12 - 20)) / 10;
-  console.log(precedence1, precedence2, precedence3);
+  let slicesOfPizza = 10;
+  slicesOfPizza += 10;
+  console.log(slicesOfPizza);
 }
