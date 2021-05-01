@@ -83,8 +83,14 @@
 //   console.log("slicesOfPizza:", slicesOfPizza);
 //   console.log("newPizza:", newPizza);
 // }
+// {
+//   let slicesOfPizza = 10;
+//   slicesOfPizza += 10;
+//   console.log(slicesOfPizza);
+// }
 {
-  let slicesOfPizza = 10;
-  slicesOfPizza += 10;
-  console.log(slicesOfPizza);
+  let x = 5;
+  let y = "10";
+  let yInt = Number.parseFloat("10.99999999");
+  console.log(x + yInt);
 }
