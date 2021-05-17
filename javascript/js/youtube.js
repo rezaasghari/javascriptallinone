@@ -101,10 +101,26 @@
 //   console.log("Octal    :", Number.parseInt(input, 8));
 //   console.log("Hex      :", Number.parseInt(input, 16));
 // }
+// {
+//   var input = Number(prompt("Put in a DECIMAL number yo"));
+//   console.log(input, "in decimal to decimal:", input);
+//   console.log(input, "in decimal to binary :", input.toString(2));
+//   console.log(input, "in decimal to octal  :", input.toString(8));
+//   console.log(input, "in decimal to hex    :", input.toString(16));
+// }
 {
-  var input = Number(prompt("Put in a DECIMAL number yo"));
-  console.log(input, "in decimal to decimal:", input);
-  console.log(input, "in decimal to binary :", input.toString(2));
-  console.log(input, "in decimal to octal  :", input.toString(8));
-  console.log(input, "in decimal to hex    :", input.toString(16));
+  // let x = new Number();
+  // Number.
+  // let x = 5;
+  // console.log(x.toExponential(5));
+  // let x = 5959595959;
+  // console.log(x.toExponential(3));
+  // let x = 5.59595959;
+  // console.log("$" + x.toFixed(2));
+  // let x = 559595959;
+  // console.log("$" + x.toLocaleString());
+  // let x = 559595959;
+  // console.log("$" + x.toPrecision(2));
+  let x = new Number(559595959);
+  console.log(typeof x);
 }
