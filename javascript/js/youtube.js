@@ -124,13 +124,29 @@
 // let x = new Number(559595959);
 // console.log(typeof x);
 // }
+// {
+//   var abs = Math.abs(-36); //36
+//   var goUp = Math.ceil(0.00000001); //1
+//   var goDown = Math.floor(0.99999); //0
+//   var powerUp = Math.pow(3, 2); //9
+//   var roundUp = Math.round(4.9); //5
+//   var roundDown = Math.round(5.1); //5
+//   var isPositive = Math.sign(-Infinity); //-1 (false)
+//   var getInt = Math.trunc(4.99999); //4
+// }
 {
-  var abs = Math.abs(-36); //36
-  var goUp = Math.ceil(0.00000001); //1
-  var goDown = Math.floor(0.99999); //0
-  var powerUp = Math.pow(3, 2); //9
-  var roundUp = Math.round(4.9); //5
-  var roundDown = Math.round(5.1); //5
-  var isPositive = Math.sign(-Infinity); //-1 (false)
-  var getInt = Math.trunc(4.99999); //4
+  // let myName = "Reza";
+  // let yourName = new String("Soheila");
+  // console.log(myName[2]);
+  // console.log(myName[20000]);
+  // let myName = "Re\nza";
+  // console.log(myName);
+  // let myName = "Re\\za";
+  // console.log(myName);
+  // let myName = "Reza";
+  // console.log("My Name is " + myName + "!");
+  // console.log(`My Name is ${myName}!`);
+  let test =
+    "This is a very very very very very very very long and very very very very very very ugly thing";
+  console.log(test.length);
 }
