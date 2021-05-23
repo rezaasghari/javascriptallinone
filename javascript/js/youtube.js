@@ -134,19 +134,46 @@
 //   var isPositive = Math.sign(-Infinity); //-1 (false)
 //   var getInt = Math.trunc(4.99999); //4
 // }
+// {
+//   let myName = "Reza";
+//   let yourName = new String("Soheila");
+//   console.log(myName[2]);
+//   console.log(myName[20000]);
+//   let myName = "Re\nza";
+//   console.log(myName);
+//   let myName = "Re\\za";
+//   console.log(myName);
+//   let myName = "Reza";
+//   console.log("My Name is " + myName + "!");
+//   console.log(`My Name is ${myName}!`);
+//   let test =
+//     "This is a very very very very very very very long and very very very very very very ugly thing";
+//   console.log(test.length);
+// }
 {
-  // let myName = "Reza";
-  // let yourName = new String("Soheila");
-  // console.log(myName[2]);
-  // console.log(myName[20000]);
-  // let myName = "Re\nza";
-  // console.log(myName);
-  // let myName = "Re\\za";
-  // console.log(myName);
-  // let myName = "Reza";
-  // console.log("My Name is " + myName + "!");
-  // console.log(`My Name is ${myName}!`);
-  let test =
-    "This is a very very very very very very very long and very very very very very very ugly thing";
-  console.log(test.length);
+  // var favFood = "tacos";
+  // console.log(favFood.charAt(2));
+  // var favFood = "tacos";
+  // console.log(favFood.concat(" are totes lis"));
+  // var favFood = "tacos";
+  // console.log(favFood + " are totes lis");
+  // var favFood = "tacos";
+  // console.log(favFood.concat("hey", "test", ""));
+  let content =
+    "Today we'll be talking about string methods and how fun they are.";
+  let search1 = "a";
+  let search2 = "number";
+
+  // console.log(content.includes(search1));
+  // console.log(content.includes(search2));
+  // console.log(content.includes(search1, 30));
+  // console.log(content.includes(search2));
+  // console.log(content.indexOf(search1));
+  // console.log(content.indexOf(search2));
+  // console.log(content.indexOf(search1, 3));
+  // console.log(content.indexOf(search2));
+  // console.log(content.indexOf(search1, content.indexOf(search1) + 1));
+  // console.log(content.indexOf(search2));
+  console.log(content.lastIndexOf(search1));
+  console.log(content.indexOf(search2));
 }
