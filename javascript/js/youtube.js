@@ -150,30 +150,51 @@
 //     "This is a very very very very very very very long and very very very very very very ugly thing";
 //   console.log(test.length);
 // }
-{
-  // var favFood = "tacos";
-  // console.log(favFood.charAt(2));
-  // var favFood = "tacos";
-  // console.log(favFood.concat(" are totes lis"));
-  // var favFood = "tacos";
-  // console.log(favFood + " are totes lis");
-  // var favFood = "tacos";
-  // console.log(favFood.concat("hey", "test", ""));
-  let content =
-    "Today we'll be talking about string methods and how fun they are.";
-  let search1 = "a";
-  let search2 = "number";
+// {
+//   var favFood = "tacos";
+//   console.log(favFood.charAt(2));
+//   var favFood = "tacos";
+//   console.log(favFood.concat(" are totes lis"));
+//   var favFood = "tacos";
+//   console.log(favFood + " are totes lis");
+//   var favFood = "tacos";
+//   console.log(favFood.concat("hey", "test", ""));
+//   let content =
+//     "Today we'll be talking about string methods and how fun they are.";
+//   let search1 = "a";
+//   let search2 = "number";
 
-  // console.log(content.includes(search1));
-  // console.log(content.includes(search2));
-  // console.log(content.includes(search1, 30));
-  // console.log(content.includes(search2));
-  // console.log(content.indexOf(search1));
-  // console.log(content.indexOf(search2));
-  // console.log(content.indexOf(search1, 3));
-  // console.log(content.indexOf(search2));
-  // console.log(content.indexOf(search1, content.indexOf(search1) + 1));
-  // console.log(content.indexOf(search2));
-  console.log(content.lastIndexOf(search1));
-  console.log(content.indexOf(search2));
+//   console.log(content.includes(search1));
+//   console.log(content.includes(search2));
+//   console.log(content.includes(search1, 30));
+//   console.log(content.includes(search2));
+//   console.log(content.indexOf(search1));
+//   console.log(content.indexOf(search2));
+//   console.log(content.indexOf(search1, 3));
+//   console.log(content.indexOf(search2));
+//   console.log(content.indexOf(search1, content.indexOf(search1) + 1));
+//   console.log(content.indexOf(search2));
+//   console.log(content.lastIndexOf(search1));
+//   console.log(content.indexOf(search2));
+// }
+// {
+//   let content =
+//     "Today we'll be talking about string method and how funny they are";
+//   let search1 = "string";
+//   let search2 = "number";
+
+//   console.log(content.substring(6, 11));
+//   console.log(content.substr(6, 11));
+//   console.log(content.slice(6, 11));
+//   console.log(content.toUpperCase());
+//   console.log(content.toLowerCase());
+//   console.log(content.trim());
+//   let caps = content.toUpperCase();
+//   let waiting = "tik tak ";
+//   console.log(waiting.repeat(400));
+// }
+{
+  let content =
+    "Today we'll be talking about string method and how funny they are";
+  console.log(content.split(" "));
 }
