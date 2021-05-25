@@ -205,6 +205,7 @@
     print: function () {
       console.log(`X: ${this.x}, Y: ${this.y}`);
     },
+    myObject: { sweetProperty: "Hello Friends" },
   };
   function print() {
     "use strict";
@@ -212,6 +213,7 @@
   }
   print();
   position.print();
+  position.myObject.sweetProperty;
 
   // let x = 10;
   // let y = x;
