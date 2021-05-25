@@ -193,8 +193,33 @@
 //   let waiting = "tik tak ";
 //   console.log(waiting.repeat(400));
 // }
+// {
+//   let content =
+//     "Today we'll be talking about string method and how funny they are";
+//   console.log(content.split(" "));
+// }
 {
-  let content =
-    "Today we'll be talking about string method and how funny they are";
-  console.log(content.split(" "));
+  let position = {
+    x: 10,
+    y: 20,
+    print: function () {
+      console.log(`X: ${this.x}, Y: ${this.y}`);
+    },
+  };
+  function print() {
+    "use strict";
+    console.log(this);
+  }
+  print();
+  position.print();
+
+  // let x = 10;
+  // let y = x;
+  // let myPosition = position;
+  // console.log(position);
+  // console.log(myPosition);
+  // myPosition.x = 15;
+  // console.log(position);
+  // console.log(myPosition);
+  // position.print();
 }
