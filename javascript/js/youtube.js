@@ -198,30 +198,41 @@
 //     "Today we'll be talking about string method and how funny they are";
 //   console.log(content.split(" "));
 // }
-{
-  let position = {
-    x: 10,
-    y: 20,
-    print: function () {
-      console.log(`X: ${this.x}, Y: ${this.y}`);
-    },
-    myObject: { sweetProperty: "Hello Friends" },
-  };
-  function print() {
-    "use strict";
-    console.log(this);
-  }
-  print();
-  position.print();
-  position.myObject.sweetProperty;
+// {
+//   let position = {
+//     x: 10,
+//     y: 20,
+//     print: function () {
+//       console.log(`X: ${this.x}, Y: ${this.y}`);
+//     },
+//     myObject: { sweetProperty: "Hello Friends" },
+//   };
+//   function print() {
+//     "use strict";
+//     console.log(this);
+//   }
+//   print();
+//   position.print();
+//   position.myObject.sweetProperty;
 
-  // let x = 10;
-  // let y = x;
-  // let myPosition = position;
-  // console.log(position);
-  // console.log(myPosition);
-  // myPosition.x = 15;
-  // console.log(position);
-  // console.log(myPosition);
-  // position.print();
+//   let x = 10;
+//   let y = x;
+//   let myPosition = position;
+//   console.log(position);
+//   console.log(myPosition);
+//   myPosition.x = 15;
+//   console.log(position);
+//   console.log(myPosition);
+//   position.print();
+// }
+{
+  var name = prompt();
+  if (name === "Reza") {
+    // identity operator // strict equality
+    console.log("Welcome");
+  } else if (name === "Sally") {
+    console.log("Welcome Sally");
+  } else {
+    console.log("You're not welcome");
+  }
 }
