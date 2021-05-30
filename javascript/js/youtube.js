@@ -225,14 +225,23 @@
 //   console.log(myPosition);
 //   position.print();
 // }
+// {
+//   var name = prompt();
+//   if (name === "Reza") {
+//     // identity operator // strict equality
+//     console.log("Welcome");
+//   } else if (name === "Sally") {
+//     console.log("Welcome Sally");
+//   } else {
+//     console.log("You're not welcome");
+//   }
+// }
 {
-  var name = prompt();
+  var name = "Reza";
   if (name === "Reza") {
     // identity operator // strict equality
     console.log("Welcome");
   } else if (name === "Sally") {
     console.log("Welcome Sally");
-  } else {
-    console.log("You're not welcome");
   }
 }
