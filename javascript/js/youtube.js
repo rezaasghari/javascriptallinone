@@ -237,11 +237,14 @@
 //   }
 // }
 {
-  var name = "Reza";
+  var name = "Reza"; //hard coding
   if (name === "Reza") {
     // identity operator // strict equality
     console.log("Welcome");
   } else if (name === "Sally") {
     console.log("Welcome Sally");
+  } else {
   }
 }
+
+//generalization
